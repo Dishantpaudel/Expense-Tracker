@@ -48,8 +48,8 @@ def listexpenses():
         print("No expenses to show.")
     else:
         for index, expense in enumerate(expenses):
-            print(f"# {index} - Amount: {expense['amount']} - Category: {expense['category']} - Description: 
-                {expense['description']} - Date: {expense['date']}")
+            print(f"# {index} - Amount: {expense['amount']} - Category: {expense['category']} - Description: {expense['description']} - Date: {expense['date']}")
+
     print("\n")
 def display_totals_by_category():
     totals = {}
